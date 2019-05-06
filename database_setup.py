@@ -33,6 +33,7 @@ class Images(Base):
     path = Column(String(250), nullable=False)
     id = Column(Integer, primary_key=True)
     item_id = Column(Integer, ForeignKey('item.id'))
+    item = relationship(Item)
 
 engine = create_engine('sqlite:///hardware.db')
 
