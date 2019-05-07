@@ -1,0 +1,12 @@
+<html>
+<body>
+	<h1>Welcome to Mr. Reddy's one stop computer shop for all your computer parts!</h1>
+
+	<div>
+	{% for i in hardware %}
+	<p><a href = "{{url_for('items_page', hardware_id=i.id)}}">{{i.hardware_name}}</a></p>
+	{% endfor %}
+	</div>
+
+</body>
+</html>
