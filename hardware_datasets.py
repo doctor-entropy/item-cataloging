@@ -19,7 +19,7 @@ session.add(hardware1)
 session.commit()
 
 item1 = Item(name='AMD Ryzen Threadripper 1950X', description='AMD Ryzen threadripper series processor with 16 cores and 32 threads',
-			 price='$550', hardware=hardware1)
+             price='$550', hardware=hardware1)
 session.add(item1)
 session.commit()
 
@@ -29,7 +29,7 @@ session.commit()
 
 # Second Item
 item2 = Item(name='Intel i9 processor', description='9th Gen Intel Processor with turbo frequency of 5.0 Hz',
-			 price='$750', hardware=hardware1)
+             price='$750', hardware=hardware1)
 session.add(item2)
 session.commit()
 
@@ -44,7 +44,7 @@ session.add(hardware2)
 session.commit()
 
 item1 = Item(name='Aorus X399 Gaming Pro 7', description='AMD X399 Gaming motherboard with RGB Fusion, Digital LED strip support',
-			 price='$550', hardware=hardware2)
+             price='$550', hardware=hardware2)
 session.add(item1)
 session.commit()
 
@@ -68,7 +68,7 @@ session.add(hardware3)
 session.commit()
 
 item1 = Item(name='Corsair Vengenance 16GB', description='2X 8GB Corsair Vengenance RAM sricks, 2333Hz',
-			 price='$250', hardware=hardware3)
+             price='$250', hardware=hardware3)
 session.add(item1)
 session.commit()
 
@@ -78,7 +78,7 @@ session.commit()
 
 # Second item
 item2 = Item(name='G.SKILL TridentZ', description='G.SKILL TridentZ RGB Series 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3000',
-			 price='$109', hardware=hardware3)
+             price='$109', hardware=hardware3)
 session.add(item2)
 session.commit()
 
@@ -93,7 +93,7 @@ session.add(hardware4)
 session.commit()
 
 item1 = Item(name='Nvidia RTX 2070', description='The powerful new GeForce RTX™ 2070 takes advantage of the cutting-edge NVIDIA Turing™ architecture to immerse you in incredible realism and performance in the latest games',
-			 price='$699', hardware=hardware4)
+             price='$699', hardware=hardware4)
 session.add(item1)
 session.commit()
 
@@ -103,7 +103,7 @@ session.commit()
 
 # Second item
 item2 = Item(name='NVidia GTX 1080 Ti', description='GeForce GTX 10 Series graphics cards are powered by Pascal to deliver up to 3X the performance of previous-generation graphics cards, plus breakthrough gaming technologies and VR experiences.',
-			 price='$599', hardware=hardware4)
+             price='$599', hardware=hardware4)
 session.add(item2)
 session.commit()
 
@@ -118,7 +118,7 @@ session.add(hardware5)
 session.commit()
 
 item1 = Item(name='NZXT Kraken X62', description='The all-new Kraken Series features the most advanced controls ever to be included in an all-in-one liquid cooler',
-			 price='$150', hardware=hardware5)
+             price='$150', hardware=hardware5)
 session.add(item1)
 session.commit()
 
@@ -128,7 +128,7 @@ session.commit()
 
 # Second item
 item2 = Item(name='Corsair H115i', description='Corsair H115i 240mm radiator with liquid cooling',
-			 price='$120', hardware=hardware5)
+             price='$120', hardware=hardware5)
 session.add(item2)
 session.commit()
 
@@ -143,7 +143,7 @@ session.add(hardware6)
 session.commit()
 
 item1 = Item(name='Samsung 860 EVO 1TB', description='Samsung 860 EVO 1TB 2.5 Inch SATA III Internal SSD (MZ-76E1T0B/AM)',
-			 price='$90', hardware=hardware6)
+             price='$90', hardware=hardware6)
 session.add(item1)
 session.commit()
 
@@ -153,7 +153,7 @@ session.commit()
 
 # Second item
 item2 = Item(name='Seagate Barracuda', description='Seagate Barracuda, 4TB with SATA connection',
-			 price='$70', hardware=hardware6)
+             price='$70', hardware=hardware6)
 session.add(item2)
 session.commit()
 
