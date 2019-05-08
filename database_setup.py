@@ -24,16 +24,17 @@ class Item(Base):
     description = Column(String(250))
     price = Column(String(8))
     hardware_id = Column(Integer, ForeignKey('hardware.id'))
+    image_name = Column(String(250))
     hardware = relationship(Hardware)
 
-class Images(Base):
+# class Images(Base):
 
-    __tablename__ = 'image_paths'
+#     __tablename__ = 'image_paths'
 
-    path = Column(String(250), nullable=False)
-    id = Column(Integer, primary_key=True)
-    item_id = Column(Integer, ForeignKey('item.id'))
-    item = relationship(Item)
+#     path = Column(String(250), nullable=False)
+#     id = Column(Integer, primary_key=True)
+#     item_id = Column(Integer, ForeignKey('item.id'))
+#     item = relationship(Item)
 
 engine = create_engine('sqlite:///hardware.db')
 

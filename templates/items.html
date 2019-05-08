@@ -5,11 +5,13 @@
 
 	<div>
 
-	<p>{{i.name}}</p>
+	<img src=" {{url_for('static', filename=i.image_name) }}", width="500", height="300"/>
+
+	<h2>{{i.name}}</h2>
 
 	<p>{{i.description}}</p>
 
-	<p> {{i.price}} </p>
+	<h3> {{i.price}} </h3>
 
 	</br>
 	</div>
